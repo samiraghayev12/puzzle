@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Aghayev Math</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <audio id="musiqi" loop >
+      <source src="ses.mp3" type="audio/mp3" >
+    </audio>
+    <audio id="qazandin" >
+      <source src="w.mp3" type="audio/mp3" >
+    </audio>
+    <div id="duyme" align="center">
+      <p style="max-width:250px;text-align:center; font-size:1.5rem;color:white; font-weight:1300;"><b>Salam bu oyunda siz öz məntiqinizi yoxlayacaqsınız. Oyun bundan ibarətdir ki, Oyunda siz rəqəmləri sırası ilə düzməyə çalışacaqınız. Kimin məntiqi daha güclüdü o bunu daha tez edəcək. Hər kəsə uğurlar!!!</b>
+   
+      </p>
+      <button class="button" onclick="basladuyme();">Başla</button>
+      </div>
+    <div id="oyun" style='display:none;'>
+      <h1 align="center">Math Aghayev</h1>
+      <div class="game">
+        <div class="grid">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>10</button>
+          <button>11</button>
+          <button>12</button>
+          <button>13</button>
+          <button>14</button>
+          <button>15</button>
+          <button></button>
+          
+        </div>
+        
+        <div class="footer">
+          <button>Başla</button>
+          <span id="move">Gediş:</span>
+          <span id="time">Vaxt:</span>
+        </div>
+        
+      </div>
+      <h1 align="center" id="endmessage"style="display:none;" class="message"></h1>
+  </div>
+    <script src="script.js"></script>
+   
+  </body>
+</html>
