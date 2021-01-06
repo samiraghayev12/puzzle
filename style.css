@@ -114,7 +114,7 @@ body {
     font-size: 3rem;
   }
   body {
-    transform: scale(0.91);
+    transform: scale(0.95);
     width: 95vw;
     background: teal;
     display: flex;
