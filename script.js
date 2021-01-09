@@ -1,8 +1,13 @@
 function basladuyme(){
-  document.getElementById('musiqi').play();
-  document.getElementById('musiqi').volume = 0.2;
   document.getElementById('duyme').style.display= "none";
   document.getElementById('oyun').style.display= "block";
+  var person = prompt("Adınızı daxil edin");
+  if (person != null) {
+    document.getElementById("result").innerHTML = "Salam Aleykum " + person + " Məntiiqini işlət oyunu tamamla!";
+  }
+  document.getElementById('musiqi').play();
+  document.getElementById('musiqi').volume = 0.2;
+  setTimeout(function(){ document.getElementById("result").innerHTML = "" }, 6000);
 }
 
 class Box {
