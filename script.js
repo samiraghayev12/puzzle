@@ -3,7 +3,7 @@ function basladuyme(){
   document.getElementById('oyun').style.display= "block";
   var adam = prompt("Adınızı daxil edin");
   if (adam != null) {
-    document.getElementById("result").innerHTML = "Xoş Gəlmisiniz " + adam + " Məntiqini işlət oyunu tamamla!";
+    document.getElementById("result").innerHTML = "Xoş Gəlmisiniz " + adam + " Məntiqinizi işlədin və oyunu tamamlayın!";
   }
   document.getElementById('musiqi').play();
   document.getElementById('musiqi').volume = 0.2;
