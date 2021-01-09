@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 .kreativ {
-  background-image: url(26293.jpg);
+  background-image: url(2px.jpeg);
   width: 353px;
   height: 5rem;
   text-align: center;
@@ -12,7 +12,7 @@ html {
 
 body {
   height: 100%;
-  background-image: url(26293.jpg);
+  background-image: url(2px.jpeg);
   background-size: 100vw 100vh;
   display: flex;
   justify-content: center;
@@ -44,7 +44,7 @@ body {
   transform: translate(-50%, -50%); */
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   padding: 15px;
-  background-image: url(26293.jpg);
+  background-image: url(2px.jpeg);
   border-radius: 0 0 10px 10px;
 }
 
@@ -134,7 +134,7 @@ body {
   body {
     transform: scale(0.95);
     width: 95vw;
-    background-image: url(26293.jpg);
+    background-image: url(2px.jpeg);
     background-size: max-content;
     background-position: center;
     display: flex;
@@ -143,7 +143,7 @@ body {
     flex-direction: column;
   }
   .kreativ {
-    background-color: #034b4b;
+    background-image: url(2px.jpeg);
     width: 353px;
     height: 5rem;
     text-align: center;
@@ -162,7 +162,7 @@ body {
     transform: translate(-50%, -50%); */
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
     padding: 15px;
-    background-color: #034b4b;
+    background-image: url(2px.jpeg);
     border-radius: 5px;
   }
 
