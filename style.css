@@ -1,6 +1,14 @@
 html {
   height: 100%;
 }
+.kreativ {
+  background-color: #003333;
+  width: 353px;
+  height: 5rem;
+  text-align: center;
+  padding: 5px 0 0 0;
+  border-radius: 30px 30px 0 0;
+}
 
 body {
   height: 100%;
@@ -36,8 +44,8 @@ body {
   transform: translate(-50%, -50%); */
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   padding: 15px;
-  background-color: #aa3939;
-  border-radius: 5px;
+  background-color: #003333;
+  border-radius: 0 0 10px 10px;
 }
 
 .grid {
@@ -104,6 +112,7 @@ body {
   height: 80%;
   text-size-adjust: 40px;
 }
+
 * {
   font-family: "EB Garamond", serif !important;
 }
@@ -133,6 +142,14 @@ body {
     align-items: center;
     flex-direction: column;
   }
+  .kreativ {
+    background-color: #003333;
+    width: 353px;
+    height: 5rem;
+    text-align: center;
+    padding: 5px 0 0 0;
+    border-radius: 30px 30px 0 0;
+  }
   .result {
     font-size: 30px;
     text-align: center;
@@ -145,7 +162,7 @@ body {
     transform: translate(-50%, -50%); */
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
     padding: 15px;
-    background-color: #aa3939;
+    background-color: #003333;
     border-radius: 5px;
   }
 

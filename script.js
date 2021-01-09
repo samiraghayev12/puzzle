@@ -1,9 +1,9 @@
 function basladuyme(){
   document.getElementById('duyme').style.display= "none";
   document.getElementById('oyun').style.display= "block";
-  var person = prompt("Adınızı daxil edin");
-  if (person != null) {
-    document.getElementById("result").innerHTML = "Salam Aleykum " + person + " Məntiiqini işlət oyunu tamamla!";
+  var adam = prompt("Adınızı daxil edin");
+  if (adam != null) {
+    document.getElementById("result").innerHTML = "Xoş Gəlmisiniz " + adam + " Məntiqini işlət oyunu tamamla!";
   }
   document.getElementById('musiqi').play();
   document.getElementById('musiqi').volume = 0.2;
