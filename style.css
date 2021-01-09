@@ -103,7 +103,7 @@ body {
   width: 210px;
   height: 40px;
   font-size: 14px;
-  background-color: #aa3939;
+  background-color: #080669;
   color: #ffffff;
 }
 
@@ -220,9 +220,8 @@ body {
   .message {
     width: 210px;
     height: 40px;
-    background-color: #aa3939;
+    background-color: #080669;
     color: #ffffff;
-    height: 80px;
   }
   .product {
     color: #000000;
